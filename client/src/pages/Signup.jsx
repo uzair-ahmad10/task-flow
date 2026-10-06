@@ -42,7 +42,7 @@ const Signup = () => {
 
        {/* left side of the container */}
 
-      <div className="hidden lg:flex flex-col justify-between px-7 py-5 min-h-[87vh] w-full max-w-sm rounded-2xl bg-linear-to-b from-orange-50 via-stone-100 to-indigo-100/50 shadow border-gray-200 border">
+      <div className="hidden lg:flex flex-col justify-between px-7 py-5 min-h-[87vh] w-full max-w-sm rounded-2xl bg-linear-to-b from-orange-200 via-stone-200 to-indigo-200 shadow border-gray-200 border">
 
         
           <div className="flex justify-between items-center">
@@ -57,6 +57,7 @@ const Signup = () => {
           </div>
 
           <div className="flex flex-col justify-center items-center gap-5" >
+
             <div className="h-[40%]  bg-orange-200 rounded-2xl shadow pb-3 text-center">
               <h3 className="text-md font-semibold text-center">Brand Design Relaunch</h3>
               <p className="text-sm text-gray-700">
@@ -64,12 +65,13 @@ const Signup = () => {
               </p>
             </div>
 
-            <div className="h-[40%]  bg-purple-200 rounded-2xl shadow pb-3 text-center">
+            <div className="h-[40%]  bg-purple-300 rounded-2xl shadow pb-3 text-center">
               <h3 className="text-md font-semibold text-center">Launch Roadmap-Q3</h3>
               <p className="text-sm text-gray-700 ">
                Just wanted to drop the new arrivals of my brand as soon as possible. 
               </p>
             </div>
+            
           </div>
 
           <div className=" bg-white flex flex-col justify-center items-center rounded-2xl py-1 shadow">
@@ -81,7 +83,7 @@ const Signup = () => {
       </div>
 
       {/* // right side of the container */}
-      <div className="flex flex-col justify-center gap-6 sm:gap-8 px-5 py-7 sm:px-8 sm:py-8 min-h-[80vh] w-full max-w-xl rounded-2xl shadow bg-white border-gray-200 border">
+      <div className="flex flex-col justify-center gap-6 sm:gap-8 px-5 py-7 sm:px-8 sm:py-8 min-h-[70vh] md:min-h-[80vh] w-full max-w-xl rounded-2xl shadow bg-white border-gray-200 border">
         <div className="flex flex-col justify-center items-center text-center">
           <h2 className="text-2xl sm:text-3xl font-bold font-['Times_New_Roman']">Create your Workspace</h2>
           <p className="text-sm sm:text-[15px] text-gray-500">Start Organizing your tasks and Colorful stick notes in seconds</p>
