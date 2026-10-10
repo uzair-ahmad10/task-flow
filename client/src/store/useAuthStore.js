@@ -2,7 +2,7 @@ import {axiosInstance} from "../utils/axios.js";
 import toast from "react-hot-toast";
 import { create } from "zustand";
 
-export const useAuthStore = create((set, get) => ({
+export const useAuthStore = create((set) => ({
   authUser: null,
   isCheckingAuth: true,
   isGoogleAuth: false,

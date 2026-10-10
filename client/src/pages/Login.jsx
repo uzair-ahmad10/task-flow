@@ -25,7 +25,7 @@ const Login = () => {
   const [formData, setFormData] = useState({email: "", password: ""});
   return (
     <div className="min-h-screen w-full flex justify-center items-center p-4 sm:p-6">
-      <div className="w-full max-w-md bg-linear-to-b from-orange-200 via-stone-200 to-indigo-200 flex flex-col items-center shadow rounded-3xl p-5 sm:p-7">
+      <div className="w-full max-w-md bg-linear-to-b from-orange-300 via-stone-300 to-indigo-300 flex flex-col items-center shadow rounded-3xl p-5 sm:p-7">
         <div className="flex flex-col items-center mb-2 text-center">
           <img className="h-15 w-15" src={logo} alt="task-flow-logo" />
 

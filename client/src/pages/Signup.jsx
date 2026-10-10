@@ -1,5 +1,4 @@
 import {
-  MessageCircleIcon,
   LockIcon,
   MailIcon,
   UserIcon,
@@ -38,11 +37,11 @@ const Signup = () => {
   }
 
   return (
-    <div className="min-h-screen w-full flex flex-col lg:flex-row justify-center items-center bg-gray-50 p-4 sm:p-6 gap-5 lg:gap-7">
+    <div className="min-h-screen w-full flex flex-col lg:flex-row justify-center items-center p-4 sm:p-6 gap-5 lg:gap-7">
 
-       {/* left side of the container */}
+      {/* left side of the container */}
 
-      <div className="hidden lg:flex flex-col justify-between px-7 py-5 min-h-[87vh] w-full max-w-sm rounded-2xl bg-linear-to-b from-orange-200 via-stone-200 to-indigo-200 shadow border-gray-200 border">
+      <div className="hidden lg:flex flex-col justify-between px-7 py-5 min-h-[87vh] w-full max-w-sm rounded-2xl bg-linear-to-b from-orange-300 via-stone-300 to-indigo-300 shadow border-gray-200 border">
 
         
           <div className="flex justify-between items-center">
